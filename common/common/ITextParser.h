@@ -1,6 +1,6 @@
 #pragma once
 
-#include "IDataStream.h"
+#include "common/IDataStream.h"
 
 class ITextParser
 {

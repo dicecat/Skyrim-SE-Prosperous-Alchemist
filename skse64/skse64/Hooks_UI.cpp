@@ -4,7 +4,7 @@
 #include "skse64_common/Utilities.h"
 #include "skse64_common/BranchTrampoline.h"
 #include "GameMenus.h"
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 #include <queue>
 
 #include "PapyrusUI.h"
@@ -79,7 +79,7 @@ void TaskInterface::AddUITask(UIDelegate_v1* task)
 	}
 }
 
-RelocAddr <uintptr_t> ProcessEventQueue_HookTarget_Enter(0x00F176D0 + 0xAB5);
+RelocAddr <uintptr_t> ProcessEventQueue_HookTarget_Enter(0x00FA3FA0 + 0xAB5);
 
 void Hooks_UI_Commit(void)
 {

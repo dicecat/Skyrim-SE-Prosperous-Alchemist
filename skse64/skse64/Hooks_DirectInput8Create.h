@@ -4,7 +4,7 @@
 #include <dinput.h>
 #include <queue>
 #include "InputMap.h"
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 void Hooks_DirectInput_Commit(void);
 

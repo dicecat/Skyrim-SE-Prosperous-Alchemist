@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 template <typename T, UInt32 size>
 class IMemPool

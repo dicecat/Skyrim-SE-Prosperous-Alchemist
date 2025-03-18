@@ -6,7 +6,7 @@
 #include "GameData.h"
 #include <vector>
 
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 UInt32 g_invalidatePlayableRaceCache = 0;
 UInt32 g_invalidateRaceCache = 0;

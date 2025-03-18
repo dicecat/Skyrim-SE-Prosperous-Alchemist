@@ -1,5 +1,5 @@
-#include "IErrors.h"
-#include "IDebugLog.h"
+#include "common/IErrors.h"
+#include "common/IDebugLog.h"
 #include <cstdlib>
 
 __declspec(noreturn) static void IErrors_Halt(void)

@@ -1,8 +1,8 @@
 #pragma once
 
-#include "ICriticalSection.h"
-#include "IEvent.h"
-#include "IInterlockedLong.h"
+#include "common/ICriticalSection.h"
+#include "common/IEvent.h"
+#include "common/IInterlockedLong.h"
 
 class IReadWriteLock
 {

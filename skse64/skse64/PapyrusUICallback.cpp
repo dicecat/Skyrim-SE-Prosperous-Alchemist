@@ -1,6 +1,6 @@
 #include "PapyrusUICallback.h"
 
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 #include "PapyrusVM.h"
 #include "PapyrusNativeFunctions.h"

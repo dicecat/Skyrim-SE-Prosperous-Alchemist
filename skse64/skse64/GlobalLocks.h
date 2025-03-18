@@ -1,5 +1,5 @@
 #pragma once
 
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 extern ICriticalSection	g_loadGameLock;

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ITypes.h"
+#include "common/ITypes.h"
 
 #define MIN3(x,y,z)  ((y) <= (z) ? ((x) <= (y) ? (x) : (y)) : ((x) <= (z) ? (x) : (z)))
 #define MAX3(x,y,z)  ((y) >= (z) ? ((x) >= (y) ? (x) : (y)) : ((x) >= (z) ? (x) : (z)))

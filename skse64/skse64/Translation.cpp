@@ -1,6 +1,6 @@
 #include "Translation.h"
 
-#include "IFileStream.h"
+#include "common/IFileStream.h"
 #include <shlobj.h>
 #include <string>
 #include "GameStreams.h"

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "ITypes.h"
-#include "ISingleton.h"
+#include "common/ITypes.h"
+#include "common/ISingleton.h"
 #include <Windows.h>
 
 /**

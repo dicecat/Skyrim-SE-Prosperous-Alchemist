@@ -1,4 +1,4 @@
-#include "ISegmentStream.h"
+#include "common/ISegmentStream.h"
 
 ISegmentStream::ISegmentStream()
 {

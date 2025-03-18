@@ -1,6 +1,6 @@
 #include "skse64/PluginManager.h"
-#include "IDirectoryIterator.h"
-#include "IFileStream.h"
+#include "common/IDirectoryIterator.h"
+#include "common/IFileStream.h"
 #include "skse64/GameAPI.h"
 #include "skse64_common/Utilities.h"
 #include "skse64/Serialization.h"
@@ -684,7 +684,10 @@ void PluginManager::ReportPluginErrors()
 	message += "\n\nContinuing to load may result in lost save data or other undesired behavior.";
 	message += "\nExit game? (yes highly suggested)";
 
-	int result = MessageBox(0, message.c_str(), "SKSE Plugin Loader", MB_YESNO);
+	int result = MessageBox(0, message.c_str(), "SKSE Plugin Loader (" __PREPRO_TOKEN_STR__(SKSE_VERSION_INTEGER) "."
+		__PREPRO_TOKEN_STR__(SKSE_VERSION_INTEGER_MINOR) "."
+		__PREPRO_TOKEN_STR__(SKSE_VERSION_INTEGER_BETA) ")",
+		MB_YESNO);
 
 	if(result == IDYES)
 	{

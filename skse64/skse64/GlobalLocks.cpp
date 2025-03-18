@@ -1,4 +1,4 @@
 #include "GlobalLocks.h"
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 ICriticalSection	g_loadGameLock;

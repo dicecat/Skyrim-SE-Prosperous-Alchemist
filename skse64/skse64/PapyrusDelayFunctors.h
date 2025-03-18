@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ICriticalSection.h"
+#include "common/ICriticalSection.h"
 
 #include "PapyrusObjects.h"
 

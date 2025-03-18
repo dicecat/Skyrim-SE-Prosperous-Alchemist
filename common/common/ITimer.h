@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ITypes.h"
+#include "common/ITypes.h"
 
 /**
  *	A high-resolution timer.

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "IDebugLog.h"
-#include "skse64_common/skse_version.h"
+#include "common/IDebugLog.h"
+#include "skse64/skse64_common/skse_version.h"
 #include "skse64/PapyrusActorValueInfo.cpp"
 #include "skse64/PapyrusForm.cpp"
 #include "skse64/PapyrusIngredient.h"

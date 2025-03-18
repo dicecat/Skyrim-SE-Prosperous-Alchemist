@@ -1,7 +1,7 @@
 #pragma once
 
-#include "IDataStream.h"
-#include "IDynamicCreate.h"
+#include "common/IDataStream.h"
+#include "common/IDynamicCreate.h"
 
 #if ENABLE_IDYNAMICCREATE
 
